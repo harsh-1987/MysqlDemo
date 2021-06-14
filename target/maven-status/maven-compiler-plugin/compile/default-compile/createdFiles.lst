@@ -1,0 +1,3 @@
+Synechron\MysqlDemo\controller\BaseController.class
+Synechron\MysqlDemo\model\User.class
+Synechron\MysqlDemo\repo\UserInterface.class
