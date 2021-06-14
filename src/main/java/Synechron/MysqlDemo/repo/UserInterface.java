@@ -1,11 +1,11 @@
 package Synechron.MysqlDemo.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
+import org.springframework.data.repository.NoRepositoryBean;
 
 import Synechron.MysqlDemo.model.User;
 
-@Repository
+@NoRepositoryBean
 public interface UserInterface extends JpaRepository<User, Long>{
 
 }
